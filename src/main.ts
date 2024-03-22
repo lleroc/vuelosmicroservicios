@@ -19,6 +19,7 @@ async function bootstrap() {
       filter: true,
     },
   });
+  console.log('activo la puerta de anlace');
   await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
